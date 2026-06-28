@@ -1,11 +1,11 @@
 Here's a professional README.md for your Weather Dashboard project.
 
-##🌦️ Weather Dashboard
+## 🌦️ Weather Dashboard
 
 A modern and responsive Weather Dashboard built using HTML5, CSS3, and JavaScript. The application fetches real-time weather information from the OpenWeatherMap API using the Fetch API and "async/await".
 
 
-#✨ Features
+# ✨ Features
 
 - 🔍 Search weather by city name
 - 🌡️ Displays current temperature
@@ -17,7 +17,7 @@ A modern and responsive Weather Dashboard built using HTML5, CSS3, and JavaScrip
 - 📱 Fully responsive design
 - 🎨 Clean and modern user interface
 
-#🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 - HTML5
 - CSS3
@@ -25,7 +25,7 @@ A modern and responsive Weather Dashboard built using HTML5, CSS3, and JavaScrip
 - Fetch API
 - OpenWeatherMap API
 
-#📂 Project Structure
+# 📂 Project Structure
 
 Weather-Dashboard/
 │── index.html
@@ -33,7 +33,7 @@ Weather-Dashboard/
 │── script.js
 └── README.md
 
-#🚀 How to Run
+# 🚀 How to Run
 
 1. Download or clone the project.
 2. Open the project in Visual Studio Code.
@@ -45,14 +45,14 @@ const apiKey = "630087400dc7945247a8f6232653d344";
 5. Right-click index.html and select Open with Live Server.
 6. Enter a city name and click Search.
 
-🔑 API Used
+# 🔑 API Used
 
 OpenWeatherMap API
 
 Generate your free API key from:
 https://openweathermap.org/api
 
-#📸 Output
+# 📸 Output
 
 The dashboard displays:
 
@@ -62,7 +62,7 @@ The dashboard displays:
 - 🌬️ Wind Speed
 - ☁️ Weather Condition
 
-#🎯 Learning Outcomes
+# 🎯 Learning Outcomes
 
 - Working with REST APIs
 - Fetch API and Async/Await
@@ -71,7 +71,7 @@ The dashboard displays:
 - Error Handling
 - Responsive Web Design
 
-##👩‍💻 Developed By
+## 👩‍💻 Developed By
 
 #Srimathy R
 
