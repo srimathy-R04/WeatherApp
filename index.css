@@ -1,0 +1,225 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+
+    padding:20px;
+}
+
+.container{
+
+    width:100%;
+    max-width:420px;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.25);
+
+    text-align:center;
+
+    animation:fade 1s ease;
+}
+
+@keyframes fade{
+
+from{
+opacity:0;
+transform:translateY(25px);
+}
+
+to{
+opacity:1;
+transform:translateY(0);
+}
+
+}
+
+h1{
+
+font-size:35px;
+
+color:#222;
+
+margin-bottom:8px;
+
+}
+
+.subtitle{
+
+color:#666;
+
+margin-bottom:25px;
+
+font-size:15px;
+
+}
+
+.search-box{
+
+display:flex;
+
+gap:10px;
+
+margin-bottom:25px;
+
+}
+
+.search-box input{
+
+flex:1;
+
+padding:14px;
+
+font-size:16px;
+
+border:none;
+
+outline:none;
+
+border-radius:10px;
+
+background:#f3f3f3;
+
+}
+
+.search-box button{
+
+padding:14px 18px;
+
+border:none;
+
+border-radius:10px;
+
+background:#0077ff;
+
+color:white;
+
+font-size:15px;
+
+cursor:pointer;
+
+transition:.3s;
+
+}
+
+.search-box button:hover{
+
+background:#0059c7;
+
+transform:scale(1.05);
+
+}
+
+.weather-card{
+
+background:linear-gradient(135deg,#74ebd5,#ACB6E5);
+
+padding:25px;
+
+border-radius:18px;
+
+color:#222;
+
+}
+
+.weather-icon{
+
+font-size:65px;
+
+margin:15px 0;
+
+}
+
+.weather-card h2{
+
+font-size:28px;
+
+margin-bottom:15px;
+
+}
+
+.weather-info p{
+
+background:white;
+
+padding:12px;
+
+margin:10px 0;
+
+border-radius:10px;
+
+font-size:18px;
+
+font-weight:600;
+
+box-shadow:0 3px 10px rgba(0,0,0,.1);
+
+}
+
+#error{
+
+margin-top:20px;
+
+font-size:18px;
+
+font-weight:bold;
+
+color:red;
+
+}
+
+@media(max-width:500px){
+
+.container{
+
+padding:20px;
+
+}
+
+h1{
+
+font-size:28px;
+
+}
+
+.search-box{
+
+flex-direction:column;
+
+}
+
+.search-box button{
+
+width:100%;
+
+}
+
+.weather-info p{
+
+font-size:16px;
+
+}
+
+.weather-icon{
+
+font-size:55px;
+
+}
+
+}
